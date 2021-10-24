@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿//Kian Badieikhorsand
+//Student Number: 101282433
+// Midterm 2021 Game2014
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -24,7 +29,7 @@ public class BulletController : MonoBehaviour, IApplyDamage
 
     private void _Move()
     {
-        transform.position += new Vector3(0.0f, verticalSpeed, 0.0f) * Time.deltaTime;
+        transform.position += new Vector3( verticalSpeed, 0.0f, 0.0f) * Time.deltaTime;
     }
 
     private void _CheckBounds()
